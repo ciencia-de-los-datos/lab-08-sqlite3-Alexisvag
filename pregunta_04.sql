@@ -40,3 +40,6 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+SELECT tbl1.K0, tbl1.c16
+FROM tbl1
+JOIN tbl0 ON LEFT(tbl1.c16, 1) = tbl0.K0
